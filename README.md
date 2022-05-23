@@ -1,4 +1,4 @@
-## 环境需求
+## 环境配置
 ```
 matplotlib>=3.2.2
 numpy>=1.18.5
@@ -11,6 +11,8 @@ torch>=1.7.0
 torchvision>=0.8.1
 tqdm>=4.41.0
 ```
+缺啥补啥吧......
+
 
 ## 项目描述
 
@@ -33,12 +35,7 @@ tqdm>=4.41.0
 
 3.在web模块中，方法基本就是整合目标检测与图像分类两大网络而成的单一数据处理，唯一不同是多了一个视频切帧，与前端和后台的交互，app.py文件即使后台数据处理文件，
 前端资源和静态页面在templates和static中，同时还有一些视频与图像存放文件，目录配置LipReading中的opt.py中，在工程目录下一个是算法目录LipRead2021,另一个是存放数据的，
-Web_data中就是存放词表vocab.txt,和视频存放的uploads,以及视频切帧完成后存放的图像文件save_img，
-目标检测完成后的唇部裁剪也是在save_img，它是将前者覆盖式的裁剪。
-
-
-## 核心技术
-深度学习框架pytorch、yolo算法、ResNet网络、flask框架......
+Web_data中就是存放词表vocab.txt,和视频存放的uploads
 
 
 
