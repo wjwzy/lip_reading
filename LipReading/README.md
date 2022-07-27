@@ -12,7 +12,7 @@ python train.py
 ```
 程序会读取上一步处理的数据集和训练集文件，并根据`batch_size`填充数据，输入模型进行训练。
 
-### 2.预测
+### 3.预测
 ```
 python predict.py
 ```
